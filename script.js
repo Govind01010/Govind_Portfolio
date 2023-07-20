@@ -18,6 +18,8 @@ window.addEventListener("load",function(){
     navbar.style.display="block";    
 });
 
+const navigationHeight=document.querySelector('.primary-navigation').offsetHeight;
+document.documentElement.style.setProperty('--scroll-padding', navigationHeight+"px")
 
 
 

@@ -4,13 +4,16 @@
     box-sizing: border-box;
     text-decoration: none;
     outline:none;
+    
 
 }
 html{
     scroll-behavior:smooth;
+    scroll-padding-top:var(--scroll-padding,85px);
 }
 body{
     overflow-x:hidden;
+    padding-top:85px;
 }
 
 .me-10{
@@ -37,6 +40,7 @@ body{
 }
 .navbar{
     display: none;
+    height:85px;
 }
 .navbar-toggler-icon{
     border:none;
@@ -93,6 +97,7 @@ font-family: 'Shantell Sans', cursive;
 #HOME{
     padding-top:55px;
     min-height:100vh;
+    
 }
 .center{
     display:flex;
@@ -101,7 +106,7 @@ font-family: 'Shantell Sans', cursive;
 }
 .bg-img{
     width:500px;
-    height:500px;
+    height:400px;
     padding-left:50px;
     padding-right:50px;
     
@@ -113,6 +118,7 @@ font-family: 'Shantell Sans', cursive;
 }
 .homeabout{
     width:500px;
+    
     margin: auto;
 }  
 
@@ -139,7 +145,7 @@ font-family: 'Shantell Sans', cursive;
 /* -------------------------------about Section-------------------------- */
 
 #ABOUT{
-    min-height:100vh;
+    height:100vh;
     padding-top:55px;
 }
 
@@ -176,7 +182,7 @@ tbody>tr>td:hover{
 }
 
 #Project{
-    min-height:100vh;
+    height:100vh;
     padding-top:65px;
 
 }
